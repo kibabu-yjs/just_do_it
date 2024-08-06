@@ -1,0 +1,33 @@
+name: just_do_it
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do:
+  card_swiper:
+  animated_text_kit:
+  get:
+  badges:
+  flutter_floating_bottom_bar:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/
+  fonts:
+  - family: Lora
+    fonts:
+      - asset: assets/fonts/Lora-Italic.ttf
+        # style: italic
